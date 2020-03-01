@@ -1,68 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# a11y-react-components
 
-## Available Scripts
+Accessible React Component Library
 
-In the project directory, you can run:
+- [x] Built with [React](https://reactjs.org/) v16.x.
+- [x] Statically typed with[Typescript](https://www.typescriptlang.org/).
+- [x] Consistent code style with [TSLint](https://palantir.github.io/tslint/).
+- [x] [React Testing Library](https://github.com/testing-library/react-testing-library) for dom testing.
+- [x] [Emotion](https://github.com/emotion-js/emotion) for css-in-js.
+- [x] [Storybook](https://storybook.js.org/) for developing UI components in isolation.
 
-### `npm start`
+## Scripts
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+| Script | Purpose |
+| ------ | ------- |
+| `npm start` | Runs the app in the development mode at [http://localhost:3000](http://localhost:3000) |
+| `npm test` | Launches the test runner in the interactive watch mode |
+| `npm run build` | Builds the app for production to the `build` folder |
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## References
 
-### `npm test`
+https://medium.com/skillthrive/build-a-react-accordion-component-from-scratch-using-react-hooks-a71d3d91324b
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://reactjs.org/docs/components-and-props.html
+https://emotion.sh/docs/media-queries
+https://github.com/cwlsn/rinse-react
+https://itnext.io/how-to-write-your-own-reusable-react-component-library-a57dc7c9a210
+https://storybook.js.org/docs/guides/guide-react/
+https://testing-library.com/docs/react-testing-library/setup
 
-### `npm run build`
+## IDE
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Using the following plugins for VS Code will improve the developer experience when developing this project:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
+[MDX](https://marketplace.visualstudio.com/items?itemName=silvenon.mdx)
+[TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
+[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Issues
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The UI can get into a state where the addon panel is hidden based on local storage. To fix it run localStorage.clear() in the browser console and hard-reload the page.
