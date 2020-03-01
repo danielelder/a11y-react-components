@@ -3,6 +3,7 @@
   "description": "Accessible React Component Library",
   "version": "0.0.1",
   "private": true,
+  "author": "Daniel Elder",
   "dependencies": {
     "@emotion/core": "^10.0.27",
     "@types/node": "^13.7.0",

@@ -2,12 +2,14 @@
 
 Accessible React Component Library
 
-- [x] Built with [React](https://reactjs.org/) v16.x.
-- [x] Statically typed with[Typescript](https://www.typescriptlang.org/).
-- [x] Consistent code style with [TSLint](https://palantir.github.io/tslint/).
-- [x] [React Testing Library](https://github.com/testing-library/react-testing-library) for dom testing.
-- [x] [Emotion](https://github.com/emotion-js/emotion) for css-in-js.
-- [x] [Storybook](https://storybook.js.org/) for developing UI components in isolation.
+![ARC logo](./screenshot.png)
+
+- Built with [React](https://reactjs.org/) v16.x.
+- Statically typed with[Typescript](https://www.typescriptlang.org/).
+- Consistent code style with [TSLint](https://palantir.github.io/tslint/).
+- [React Testing Library](https://github.com/testing-library/react-testing-library) for dom testing.
+- [Emotion](https://github.com/emotion-js/emotion) for css-in-js.
+- [Storybook](https://storybook.js.org/) for developing UI components in isolation.
 
 ## Scripts
 
